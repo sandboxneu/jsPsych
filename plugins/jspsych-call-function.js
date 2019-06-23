@@ -7,6 +7,7 @@
  *
  **/
 
+module.exports = (jsPsych) => {
 jsPsych.plugins['call-function'] = (function() {
 
   var plugin = {};
@@ -56,3 +57,4 @@ jsPsych.plugins['call-function'] = (function() {
 
   return plugin;
 })();
+}

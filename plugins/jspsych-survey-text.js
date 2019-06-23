@@ -8,7 +8,7 @@
  *
  */
 
-
+module.exports = (jsPsych) => {
 jsPsych.plugins['survey-text'] = (function() {
 
   var plugin = {};
@@ -151,3 +151,4 @@ jsPsych.plugins['survey-text'] = (function() {
 
   return plugin;
 })();
+}

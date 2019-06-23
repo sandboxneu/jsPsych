@@ -12,6 +12,7 @@
  *
  */
 
+module.exports = (jsPsych) => {
 jsPsych.plugins.instructions = (function() {
 
   var plugin = {};
@@ -229,3 +230,4 @@ jsPsych.plugins.instructions = (function() {
 
   return plugin;
 })();
+}

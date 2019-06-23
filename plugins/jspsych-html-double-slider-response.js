@@ -1,3 +1,5 @@
+
+module.exports = (jsPsych) => {
 jsPsych.plugins["html-double-slider-response"] = (function() {
 
   var plugin = {};
@@ -248,3 +250,4 @@ jsPsych.plugins["html-double-slider-response"] = (function() {
 
   return plugin;
 })();
+}

@@ -8,6 +8,7 @@
  *
  */
 
+module.exports = (jsPsych) => {
 
 jsPsych.plugins['html-slider-response'] = (function() {
 
@@ -169,3 +170,4 @@ jsPsych.plugins['html-slider-response'] = (function() {
 
   return plugin;
 })();
+}

@@ -8,6 +8,7 @@
  *
  **/
 
+module.exports = (jsPsych) => {
 
 jsPsych.plugins["html-keyboard-response"] = (function() {
 
@@ -147,3 +148,4 @@ jsPsych.plugins["html-keyboard-response"] = (function() {
 
   return plugin;
 })();
+}
